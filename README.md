@@ -44,11 +44,11 @@ The pointer wraps around the grid when reaching edges.
 
 ### Control Flow
 - **Labels:** `0`, `1`, `2`, `3`, ..., `9` - Define program jump points.
-- **Unconditional Jump:** `j(label)` - Jump to a label.
+- **Unconditional Jump:** `jlabel` - Jump to a label.
 - **Conditional Jumps:**
-  - `>(label)` - Jump to a label if the **Positive Flag** is set.
-  - `=(label)` - Jump to a label if the **Zero Flag** is set.
-  - `<(label)` - Jump to a label if the **Negative Flag** is set.
+  - `>label` - Jump to a label if the **Positive Flag** is set.
+  - `=label` - Jump to a label if the **Zero Flag** is set.
+  - `<label` - Jump to a label if the **Negative Flag** is set.
 
 ### Input/Output
 - `o` - Output the ASCII representation of the current cell's value.
